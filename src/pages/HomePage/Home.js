@@ -1,11 +1,21 @@
 import React from 'react'
-import { InfoSection } from '../../components'
-import { homeObjOne } from './Data'
+
+// Components 
+import { InfoSection, Pricing } from '../../components'
+
+//Data
+import { homeObjFour, homeObjOne, homeObjThree, homeObjTwo } from './Data'
 
 const Home = () => {
   return (
     <>
       <InfoSection {...homeObjOne} />
+      <InfoSection {...homeObjTwo} />
+      <Pricing></Pricing>
+      <InfoSection {...homeObjThree} />
+      <InfoSection {...homeObjFour} />
+
+
     </>
   )
 }
